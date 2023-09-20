@@ -1,2 +1,2 @@
 # landingpage
-Landing Page
+Landing Page da página Gingos Store
