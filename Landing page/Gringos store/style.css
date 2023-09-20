@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Nandinagari&family=Palanquin:wght@100&family=Poppins:wght@100&family=Sarala&family=Yuji+Hentaigana+Akari&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: none;
+}
+body {
+    font-size: 100%;
+    background-color: #FFFFFF;
+}
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+.cabecalho-menu {
+    display:flex;
+    gap: 50px;
+}
+.cabecalho-menu-item {
+    font-family: 'Sarala', sans-serif;
+    color: #000000;
+    font-weight: 400;
+    font-size: 20px;
+}
+.login {
+    margin-left: -600px;
+    font-family: 'Sarala', sans-serif;
+    color: #000000;
+    font-weight: 400;
+    font-size: 20px;
+    
+}
+.button {
+    margin-left: -650px;
+    background-color: #E87A14;
+    color: #FFFFFF;
+    width: 180px;
+    height: 60px;
+    border:none;
+    box-shadow: 4px 5px rgba(0, 0, 0, 0 0.25);
+    border-radius: 20px;
+
+}
+
+
+.botao-inscreverse {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+} 
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.conteudo-principal-escrito-titulo {
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    color: #44C3EB;
+
+}
+.conteudo-principal-paragrafo {
+    font-family: 'Palanquin', sans-serif;
+    font-weight: 400px;
+    font-size: 25px;
+    color: #000000;
+    
+}
+.conteudo-principal-escrito-botao {
+    
+    background-color: #E87A14;
+    color: #FFFFFF;
+    width: 180px;
+    height: 60px;
+    border:none;
+    box-shadow: 4px 5px rgba(0, 0, 0, 0 0.25);
+    border-radius: 20px;
+}
+.botao-direcionar {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.conteudo-principal-img {
+    margin-left: -300px;
+    width: 627px;
+    height: 782px;
+}
+.rodape {
+    padding: 32px;
+   margin-left: +320px;
+    
+}
+
+
+    
